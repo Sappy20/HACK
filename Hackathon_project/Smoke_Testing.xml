@@ -6,7 +6,7 @@
   
   <test thread-count="5" name="Grouping Functionalities">
   	<parameter name="os" value="windows"></parameter>
-  	<parameter name="browser" value="edge"></parameter>
+  	<parameter name="browser" value="chrome"></parameter>
   	
   <!--  COMMENTED OUT   -->
   <groups>
