@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-08T14:05:53 IST" name="Smoke_Testing" finished-at="2024-02-08T14:06:31 IST" duration-ms="38030">
+    <groups>
+      <group name="regression">
+        <method signature="GoogleHome_Test.search_action()[pri:1, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="search_action" class="TestCases.GoogleHome_Test"/>
+        <method signature="GoogleHome_Test.search()[pri:2, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="search" class="TestCases.GoogleHome_Test"/>
+        <method signature="GoogleHome_Test.open_webpage()[pri:3, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="open_webpage" class="TestCases.GoogleHome_Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GoogleHome_Test.search_action()[pri:1, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="search_action" class="TestCases.GoogleHome_Test"/>
+        <method signature="GoogleHome_Test.search()[pri:2, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="search" class="TestCases.GoogleHome_Test"/>
+        <method signature="GoogleHome_Test.open_webpage()[pri:3, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="open_webpage" class="TestCases.GoogleHome_Test"/>
+        <method signature="EMI_CalculatorHomePage_TEST.clickONCarloan()[pri:4, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="clickONCarloan" class="TestCases.EMI_CalculatorHomePage_TEST"/>
+        <method signature="EMI_CalculatorHomePage_TEST.load_EMICalculator_LINK()[pri:6, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="load_EMICalculator_LINK" class="TestCases.EMI_CalculatorHomePage_TEST"/>
+        <method signature="HomeLoanEMICalculator_Test.Navigation_toNextPage()[pri:23, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="Navigation_toNextPage" class="TestCases.HomeLoanEMICalculator_Test"/>
+        <method signature="UI_CheckForLoanAmountCalculators.validation_Of_EMI_Calculator()[pri:24, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="validation_Of_EMI_Calculator" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanAmountCalculators.validationOf_Loan_Amount_Calculator()[pri:25, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="validationOf_Loan_Amount_Calculator" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanAmountCalculators.validationOf_Loan_Tenure_Calculator()[pri:26, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="validationOf_Loan_Tenure_Calculator" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanAmountCalculators.validationOf_Loan_Interest_Calculator()[pri:27, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="validationOf_Loan_Interest_Calculator" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanAmountCalculators.does_setingLoan_FeesAndCharges()[pri:31, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="does_setingLoan_FeesAndCharges" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanEMICalc.needTo_NavigateToNxtPage()[pri:36, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="needTo_NavigateToNxtPage" class="TestCases.UI_CheckForLoanEMICalc"/>
+        <method signature="UI_CheckForLoanTennureCalc.do_NavigateToNextPAGE()[pri:41, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="do_NavigateToNextPAGE" class="TestCases.UI_CheckForLoanTennureCalc"/>
+        <method signature="UI_CheckForInterestRATECalc.do_validation_Result()[pri:46, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="do_validation_Result" class="TestCases.UI_CheckForInterestRATECalc"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GoogleHome_Test.search_action()[pri:1, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="search_action" class="TestCases.GoogleHome_Test"/>
+        <method signature="GoogleHome_Test.search()[pri:2, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="search" class="TestCases.GoogleHome_Test"/>
+        <method signature="GoogleHome_Test.open_webpage()[pri:3, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="open_webpage" class="TestCases.GoogleHome_Test"/>
+        <method signature="EMI_CalculatorHomePage_TEST.clickONCarloan()[pri:4, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="clickONCarloan" class="TestCases.EMI_CalculatorHomePage_TEST"/>
+        <method signature="EMI_CalculatorHomePage_TEST.load_EMICalculator_LINK()[pri:6, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="load_EMICalculator_LINK" class="TestCases.EMI_CalculatorHomePage_TEST"/>
+        <method signature="HomeLoanEMICalculator_Test.Navigation_toNextPage()[pri:23, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="Navigation_toNextPage" class="TestCases.HomeLoanEMICalculator_Test"/>
+        <method signature="UI_CheckForLoanAmountCalculators.validation_Of_EMI_Calculator()[pri:24, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="validation_Of_EMI_Calculator" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanAmountCalculators.validationOf_Loan_Amount_Calculator()[pri:25, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="validationOf_Loan_Amount_Calculator" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanAmountCalculators.validationOf_Loan_Tenure_Calculator()[pri:26, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="validationOf_Loan_Tenure_Calculator" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanAmountCalculators.validationOf_Loan_Interest_Calculator()[pri:27, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="validationOf_Loan_Interest_Calculator" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanAmountCalculators.does_setingLoan_FeesAndCharges()[pri:31, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="does_setingLoan_FeesAndCharges" class="TestCases.UI_CheckForLoanAmountCalculators"/>
+        <method signature="UI_CheckForLoanEMICalc.needTo_NavigateToNxtPage()[pri:36, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="needTo_NavigateToNxtPage" class="TestCases.UI_CheckForLoanEMICalc"/>
+        <method signature="UI_CheckForLoanTennureCalc.do_NavigateToNextPAGE()[pri:41, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="do_NavigateToNextPAGE" class="TestCases.UI_CheckForLoanTennureCalc"/>
+        <method signature="UI_CheckForInterestRATECalc.do_validation_Result()[pri:46, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="do_validation_Result" class="TestCases.UI_CheckForInterestRATECalc"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="GoogleHome_Test.search_action()[pri:1, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="search_action" class="TestCases.GoogleHome_Test"/>
+        <method signature="GoogleHome_Test.search()[pri:2, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="search" class="TestCases.GoogleHome_Test"/>
+        <method signature="GoogleHome_Test.open_webpage()[pri:3, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="open_webpage" class="TestCases.GoogleHome_Test"/>
+        <method signature="EMI_CalculatorHomePage_TEST.clickONCarloan()[pri:4, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="clickONCarloan" class="TestCases.EMI_CalculatorHomePage_TEST"/>
+        <method signature="EMI_CalculatorHomePage_TEST.load_EMICalculator_LINK()[pri:6, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="load_EMICalculator_LINK" class="TestCases.EMI_CalculatorHomePage_TEST"/>
+        <method signature="HomeLoanEMICalculator_Test.Navigation_toNextPage()[pri:23, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" name="Navigation_toNextPage" class="TestCases.HomeLoanEMICalculator_Test"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-08T14:05:53 IST" name="Grouping Functionalities" finished-at="2024-02-08T14:06:31 IST" duration-ms="38030">
+      <class name="TestCases.UI_CheckForInterestRATECalc">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:05:53 IST" name="setup" finished-at="2024-02-08T14:06:04 IST" duration-ms="11826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search_action()[pri:1, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:04 IST" name="search_action" finished-at="2024-02-08T14:06:06 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_action -->
+        <test-method signature="search()[pri:2, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:06 IST" name="search" finished-at="2024-02-08T14:06:07 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="open_webpage()[pri:3, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:07 IST" name="open_webpage" finished-at="2024-02-08T14:06:15 IST" duration-ms="7846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_webpage -->
+        <test-method signature="clickONCarloan()[pri:4, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:15 IST" name="clickONCarloan" finished-at="2024-02-08T14:06:15 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickONCarloan -->
+        <test-method signature="load_EMICalculator_LINK()[pri:6, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:15 IST" name="load_EMICalculator_LINK" finished-at="2024-02-08T14:06:24 IST" duration-ms="9230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_EMICalculator_LINK -->
+        <test-method signature="Navigation_toNextPage()[pri:23, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:24 IST" name="Navigation_toNextPage" finished-at="2024-02-08T14:06:28 IST" duration-ms="3375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_toNextPage -->
+        <test-method signature="validation_Of_EMI_Calculator()[pri:24, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:28 IST" name="validation_Of_EMI_Calculator" finished-at="2024-02-08T14:06:28 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_Of_EMI_Calculator -->
+        <test-method signature="validationOf_Loan_Amount_Calculator()[pri:25, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:28 IST" name="validationOf_Loan_Amount_Calculator" finished-at="2024-02-08T14:06:28 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOf_Loan_Amount_Calculator -->
+        <test-method signature="validationOf_Loan_Tenure_Calculator()[pri:26, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:28 IST" name="validationOf_Loan_Tenure_Calculator" finished-at="2024-02-08T14:06:28 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOf_Loan_Tenure_Calculator -->
+        <test-method signature="validationOf_Loan_Interest_Calculator()[pri:27, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:28 IST" name="validationOf_Loan_Interest_Calculator" finished-at="2024-02-08T14:06:28 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOf_Loan_Interest_Calculator -->
+        <test-method signature="does_setingLoan_FeesAndCharges()[pri:31, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:28 IST" name="does_setingLoan_FeesAndCharges" finished-at="2024-02-08T14:06:29 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- does_setingLoan_FeesAndCharges -->
+        <test-method signature="needTo_NavigateToNxtPage()[pri:36, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:29 IST" name="needTo_NavigateToNxtPage" finished-at="2024-02-08T14:06:29 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- needTo_NavigateToNxtPage -->
+        <test-method signature="do_NavigateToNextPAGE()[pri:41, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:29 IST" name="do_NavigateToNextPAGE" finished-at="2024-02-08T14:06:29 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_NavigateToNextPAGE -->
+        <test-method signature="do_validation_Result()[pri:46, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:29 IST" name="do_validation_Result" finished-at="2024-02-08T14:06:29 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_validation_Result -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@3a80515c]" started-at="2024-02-08T14:06:29 IST" name="tearDown" finished-at="2024-02-08T14:06:31 IST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.UI_CheckForInterestRATECalc -->
+    </test> <!-- Grouping Functionalities -->
+  </suite> <!-- Smoke_Testing -->
+</testng-results>
