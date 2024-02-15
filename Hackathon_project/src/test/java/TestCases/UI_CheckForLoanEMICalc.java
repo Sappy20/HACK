@@ -9,7 +9,7 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 	
 	// TEST FOR 2 PAGE
 	
-	@Test(priority=32,groups= {"sanity"})
+	@Test(priority=32,groups= {"sanity","master"})
 	public void needTo_setLoan_Amount()
 	{
 		logger.info("***** Working on the Second type of Calculator page  *******");
@@ -31,7 +31,7 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 	}
 	
 	
-	@Test(priority=33,groups= {"sanity"})
+	@Test(priority=33,groups= {"sanity","master"})
 	public void needTo_setLoan_Interest_Rate()
 	{
 
@@ -51,7 +51,7 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 	}
 	
 	
-	@Test(priority=34,groups= {"sanity"})
+	@Test(priority=34,groups= {"sanity","master"})
 	public void needTo_setLoan_Tennure()
 	{
 		logger.info("***** Providing the number of YEARS for which the LOAN is being applied for  *******");
@@ -67,7 +67,7 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 	}
 	
 	
-	@Test(priority=35,groups= {"sanity"})
+	@Test(priority=35,groups= {"sanity","master"})
 	public void needTo_setLoan_FeesAndCharges()
 	{
 
@@ -86,7 +86,7 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 		
 	}
 	
-	@Test(priority=36,groups= {"smoke","sanity"})
+	@Test(priority=36,groups= {"smoke","sanity","master"})
 	public void needTo_NavigateToNxtPage()
 	{
 

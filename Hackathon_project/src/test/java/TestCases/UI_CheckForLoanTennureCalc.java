@@ -8,7 +8,7 @@ public class UI_CheckForLoanTennureCalc extends UI_CheckForLoanEMICalc{
 	
 	// TESTS for 3rd PAGE
 	
-	@Test(priority=37,groups= {"sanity"})
+	@Test(priority=37,groups= {"sanity","master"})
 	public void do_setsLoan_Amount() throws InterruptedException
 	{
 		logger.info("***** Working on the THIRD type Calculator  *******");
@@ -29,7 +29,7 @@ public class UI_CheckForLoanTennureCalc extends UI_CheckForLoanEMICalc{
 		
 	}
 	
-	@Test(priority=38,groups= {"sanity"})
+	@Test(priority=38,groups= {"sanity","master"})
 	public void do_setsEMI_Amount()
 	{
 		logger.info("*****  *******");
@@ -45,7 +45,7 @@ public class UI_CheckForLoanTennureCalc extends UI_CheckForLoanEMICalc{
 		
 	}
 	
-	@Test(priority=39,groups= {"sanity"})
+	@Test(priority=39,groups= {"sanity","master"})
 	public void do_setsLoan_AmountInterest_RATE()
 	{
 		logger.info("*****  __________________________________ *******");
@@ -62,7 +62,7 @@ public class UI_CheckForLoanTennureCalc extends UI_CheckForLoanEMICalc{
 		logger.info("***** _____________________________ *******");
 	}
 	
-	@Test(priority=40,groups= {"sanity"})
+	@Test(priority=40,groups= {"sanity","master"})
 	public void do_setsFees_AND_Charges_Amount()
 	{
 
@@ -80,7 +80,7 @@ public class UI_CheckForLoanTennureCalc extends UI_CheckForLoanEMICalc{
 		
 	}
 	
-	@Test(priority=41,groups= {"smoke","sanity"})
+	@Test(priority=41,groups= {"smoke","sanity","master"})
 	public void do_NavigateToNextPAGE()
 	{
 

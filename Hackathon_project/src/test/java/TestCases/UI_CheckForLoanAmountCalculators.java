@@ -10,7 +10,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	// TESTS of 1st PAGE
 	
 
-	@Test(priority=24,groups= {"smoke","sanity"})
+	@Test(priority=24,groups= {"smoke","sanity","master"})
 	public void validation_Of_EMI_Calculator()
 	{
 		logger.info("***** Working on the 1st TYPE of CALCULATOR  *******");
@@ -26,7 +26,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	
 	
 	
-	@Test(priority=25,groups= {"smoke","sanity"})
+	@Test(priority=25,groups= {"smoke","sanity","master"})
 	public void validationOf_Loan_Amount_Calculator()
 	{
 		logger.info("*****  _______________________________ *******");
@@ -39,7 +39,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	
 	
 	
-	@Test(priority=26,groups= {"smoke","sanity"})
+	@Test(priority=26,groups= {"smoke","sanity","master"})
 	public void validationOf_Loan_Tenure_Calculator()
 	{
 		logger.info("***** ________________________________  *******");
@@ -51,7 +51,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	}
 	
 	
-	@Test(priority=27,groups= {"smoke","sanity"})
+	@Test(priority=27,groups= {"smoke","sanity","master"})
 	public void validationOf_Loan_Interest_Calculator()
 	{
 		logger.info("***** Validation of Loan Interest Calculator link   *******");
@@ -63,7 +63,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	
 	
 	
-	@Test(priority=28,groups= {"sanity"})
+	@Test(priority=28,groups= {"sanity","master"})
 	public void does_setingLoan_Amount()
 	{
 		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
@@ -78,7 +78,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	}
 	
 	
-	@Test(priority=29,groups= {"sanity"})
+	@Test(priority=29,groups= {"sanity","master"})
 	public void does_setingLoan_Interest_Rate()
 	{
 		
@@ -97,7 +97,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	}
 	
 	
-	@Test(priority=30,groups= {"sanity"})
+	@Test(priority=30,groups= {"sanity","master"})
 	public void LoanTennure_CalculatorIs_Present_Validation()
 	{
 		logger.info("***** Setting the Loan Tennure by providing the number of years into the checkbox *******");
@@ -112,7 +112,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	}
 	
 	
-	@Test(priority=31,groups= {"smoke","sanity"})
+	@Test(priority=31,groups= {"smoke","sanity","master"})
 	public void does_setingLoan_FeesAndCharges()
 	{
 		logger.info("*****  *******");

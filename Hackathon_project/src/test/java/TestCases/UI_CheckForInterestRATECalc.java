@@ -8,7 +8,7 @@ public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
 
 	// Tests For 4TH PAGE
 	
-	@Test(priority=42,groups= {"sanity"})
+	@Test(priority=42,groups= {"sanity","master"})
 	public void do_settingLoan_Amount()
 	{
 
@@ -28,7 +28,7 @@ public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
 		
 	}
 	
-	@Test(priority=43,groups= {"sanity"})
+	@Test(priority=43,groups= {"sanity","master"})
 	public void do_settingEMI_Amount()
 	{
 
@@ -45,7 +45,7 @@ public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
 		
 	}
 	
-	@Test(priority=44,groups= {"sanity"})
+	@Test(priority=44,groups= {"sanity","master"})
 	public void do_setingLoan_Tennure()
 	{
 
@@ -61,7 +61,7 @@ public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
 		logger.info("***** __________________________________________ *******");
 	}
 	
-	@Test(priority=45,groups= {"sanity"})
+	@Test(priority=45,groups= {"sanity","master"})
 	public void do_setingLoan_FeesAndCharges()
 	{
 		logger.info("*****  *******");
@@ -76,7 +76,7 @@ public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
 		logger.info("***** _____________________________________ *******");
 	}
 	
-	@Test(priority=46,groups= {"smoke","sanity"})
+	@Test(priority=46,groups= {"smoke","sanity","master"})
 	public void do_validation_Result()
 	{
 
